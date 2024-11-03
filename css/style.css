@@ -1,0 +1,13 @@
+main {
+  min-height: calc(100vh - 160px);
+}
+
+.card-img-top {
+  height: 200px; /* Altura fija para las imágenes */
+  object-fit: cover; /* Ajustar la imagen sin distorsionar */
+}
+.card-title, .card-text {
+  white-space: nowrap; /* Evita que el texto pase a la siguiente línea */
+  overflow: hidden; /* Oculta el texto que sobrepasa el contenedor */
+  text-overflow: ellipsis; /* Agrega puntos suspensivos al final del texto */
+}
